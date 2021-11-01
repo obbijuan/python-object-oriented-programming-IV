@@ -1,9 +1,12 @@
 from typing import List
 
+
 """
-The Contact class is responsible for maintaining a global list of
-all contacts ever  seen in a class variable, and for initializing
-the name and address for an individual  contact:
+How do we apply inheritance in practice?:
+The simplest and most obvious use of inheritance is to add
+functionality to an existing class.
+Let's start with a contact manager that tracks the names
+and email addresses of several people.
 """
 
 class Contact:
